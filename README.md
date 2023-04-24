@@ -1,15 +1,7 @@
-# README
+# Render Log Stream Demo
 
-This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+This is an example app to show how [Render Log Streams](https://render.com/docs/log-streams) can be used to send logs to a log aggregator like Datadog, Papertrail, or SumoLogic.
 
-The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
+## Running Locally
 
-## Deployment
-
-See https://render.com/docs/deploy-node-express-app or follow the steps below:
-
-Create a new web service with the following values:
-  * Build Command: `yarn`
-  * Start Command: `node app.js`
-
-That's it! Your web service will be live on your Render URL as soon as the build finishes.
+Run `yarn install` and `yarn start`. The app will be running on [http://localhost:3001/](http://localhost:3001/).
